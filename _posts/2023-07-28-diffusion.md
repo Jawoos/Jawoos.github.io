@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Diffusion 논문 정리"
-date: 2023-07-28 00:01:10 +0900
+title:  "Diffusion 논문 정리"
+date:   2023-07-28 00:01:10 +0900
 categories: Paper Summary
 ---
 # Denoising Diffusion Probabilistic Models
