@@ -1,8 +1,10 @@
+---
+layout: post
+title:  "Wild patterns 논문 정리"
+date:   2021-07-13 00:00:00 +0900
+categories: paper-summary
+---
 # Wild patterns: Ten years after the rise of adversarial machine learning
-
-태그: Defend, for AI
-읽은 날짜: 2021년 7월 13일
-논문 파일: Wild%20patterns%20Ten%20years%20after%20the%20rise%20of%20adversar%209dadf716eb314c12936654f40494f20d/Wild_patterns-_Ten_years_after_the_rise_of_adversarial_machine_learning.pdf
 
 # 1. Introduction
 
