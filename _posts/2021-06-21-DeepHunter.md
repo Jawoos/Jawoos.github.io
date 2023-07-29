@@ -1,8 +1,10 @@
+---
+layout: post
+title:  "DeepHunter 논문 정리"
+date:   2021-06-21 00:00:00 +0900
+categories: paper-summary
+---
 # DeepHunter: Hunting Deep Neural Network Defects via Coverage-Guided Fuzzing
-
-태그: Fuzzing, for AI
-읽은 날짜: 2021년 6월 21일
-논문 파일: DeepHunter%20Hunting%20Deep%20Neural%20Network%20Defects%20via%20b02363cd441b4a00ba474e381be4b7a3/(18_ACM_ASE)_DeepGauge__Multi-Granularity_Testing_Criteria_for_Deep_Learning_Systems.pdf
 
 해당 논문에서는 Coverage Guided Fuzz를 DNN 기반 프로그램에 적용 했을 때의 유용성을 확인하고자 실험을 진행 하였다.
 
