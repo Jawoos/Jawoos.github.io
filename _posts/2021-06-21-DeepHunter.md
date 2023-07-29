@@ -64,11 +64,11 @@ DNN 양자화를 통하여 DL 모델의 저장 용량을 줄이고 사용하는 
     각 레이어에서 가장 할성화된 k개의 뉴런을 사용한다.
     
 
-![DeepHunter%20Hunting%20Deep%20Neural%20Network%20Defects%20via%20b02363cd441b4a00ba474e381be4b7a3/Untitled.png](DeepHunter%20Hunting%20Deep%20Neural%20Network%20Defects%20via%20b02363cd441b4a00ba474e381be4b7a3/Untitled.png)
+<img width="500" alt="Untitled" src="https://github.com/Jawoos/Jawoos.github.io/assets/49528515/9001d75d-52b7-4d90-9f33-2d0087cf4a8b">
 
 해당 사진은 DeepHunter가 어떻게 동작하는지를 보여준다.
 
-![DeepHunter%20Hunting%20Deep%20Neural%20Network%20Defects%20via%20b02363cd441b4a00ba474e381be4b7a3/Untitled%201.png](DeepHunter%20Hunting%20Deep%20Neural%20Network%20Defects%20via%20b02363cd441b4a00ba474e381be4b7a3/Untitled%201.png)
+<img width="500" alt="Untitled 1" src="https://github.com/Jawoos/Jawoos.github.io/assets/49528515/10db4dff-4e79-4608-8b60-ff47e9fe227d">
 
 해당 사진은 DeepHunter 테스트 생성 알고리즘 이다.
 
@@ -108,7 +108,7 @@ image translation, image scaling, image shearing, image rotation
 
 이미지에 변화가 생길 때에는 연속적으로 이루어져야 한다.
 
-![DeepHunter%20Hunting%20Deep%20Neural%20Network%20Defects%20via%20b02363cd441b4a00ba474e381be4b7a3/Untitled%202.png](DeepHunter%20Hunting%20Deep%20Neural%20Network%20Defects%20via%20b02363cd441b4a00ba474e381be4b7a3/Untitled%202.png)
+<img width="500" alt="Untitled 2" src="https://github.com/Jawoos/Jawoos.github.io/assets/49528515/b462840b-dc38-430a-997c-5d1c55f3b4d8">
 
 여기서 $L_0$는 s 와 s' 사이에 변화한 픽셀들의 최대값을 나타내며, $L_\infty$는 변화된 픽셀의 최대값을 나타낸다. 변화된 픽셀의 개수가 적다면 픽셀은 아무 값이나 될 수 있지만, 변화된 픽셀 개수가 많다면 변화되는 값을 제한이 된다. Affine Transformation이 일어나게 된다면 픽셀은 1대1로 상응하는 연결이 사라지게 된다.
 
@@ -116,11 +116,11 @@ image translation, image scaling, image shearing, image rotation
 
 Affine Transformation(AT)이 있기 전까지는 reference image는 오리지널 이미지 이지만 AT 이후에는 reference image는 AT 직후의 이미지로 바뀌게 된다.
 
-![DeepHunter%20Hunting%20Deep%20Neural%20Network%20Defects%20via%20b02363cd441b4a00ba474e381be4b7a3/Untitled%203.png](DeepHunter%20Hunting%20Deep%20Neural%20Network%20Defects%20via%20b02363cd441b4a00ba474e381be4b7a3/Untitled%203.png)
+<img width="500" alt="Untitled 3" src="https://github.com/Jawoos/Jawoos.github.io/assets/49528515/faf22218-4a5c-4008-9ee0-221c3f3ed13c">
 
 연속해서 mutation이 일어날 때 $L_0$와 $L_\infty$는 다음과 같은 방법으로 구할 수 있다. 이때  $t_{j-1}$ 은 Affine Trasformation 이다.
 
-![DeepHunter%20Hunting%20Deep%20Neural%20Network%20Defects%20via%20b02363cd441b4a00ba474e381be4b7a3/Untitled%204.png](DeepHunter%20Hunting%20Deep%20Neural%20Network%20Defects%20via%20b02363cd441b4a00ba474e381be4b7a3/Untitled%204.png)
+<img width="500" alt="Untitled 4" src="https://github.com/Jawoos/Jawoos.github.io/assets/49528515/89a994f2-7461-439f-90cf-2251b0e5b13a">
 
 해당 알고리즘은 DeepHunter에서 mutation이 어떠한 방식으로 일어나는지에 대한 알고리즘이다.
 
@@ -130,7 +130,7 @@ Seed Prioritization은 시드큐에서 다음으로 어떠한 시드를 선택�
 
 DeepHunter의 경우에는 2가지의 seed selection strategies를 사용한다. 첫번째는 랜덤하게 큐에서 시드를 선택하는 것이다. 두번째는 시드가 몇회 퍼즈가 되엇는지를 기반으로 선택하는 전략이다.
 
-![DeepHunter%20Hunting%20Deep%20Neural%20Network%20Defects%20via%20b02363cd441b4a00ba474e381be4b7a3/Untitled%205.png](DeepHunter%20Hunting%20Deep%20Neural%20Network%20Defects%20via%20b02363cd441b4a00ba474e381be4b7a3/Untitled%205.png)
+<img width="500" alt="Untitled 5" src="https://github.com/Jawoos/Jawoos.github.io/assets/49528515/e27be8fb-e604-4ee1-9329-1bfb09bc00fa">
 
 $g(s)$ 는 시드가 몇회 포즈가 되었는지를 나타내며, $p_{min} > 0$ 의 경우에는 시드 선택의 최소 확률을 나타낸다. $\gamma$의 경우에는 감쇠 특성을 가지는 변수이다. 
 
